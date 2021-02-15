@@ -1,0 +1,110 @@
+Main.main({ });
+a1_test_data.txt
+Enter File Name with extention: 
+SUCCESS: mike Registered !
+SUCCESS: Object_Oriented_Programming Created By mike
+SUCCESS: Operating_System Created By mike
+FAIL TO CREATE DOC: ali Is Not A Registered User !
+SUCCESS: OO programming is awesome. Added in Document Object_Oriented_Programming By mike
+FAIL TO APPEND: ali Is Not A Registered User !
+SUCCESS: I love OO programing. Added in Document Object_Oriented_Programming By mike
+SUCCESS: everyone likes pointers in Cpp Added in Document Object_Oriented_Programming By mike
+FAIL TO PRINT DOC: Graph_Theory NOT FOUND !
+FAIL TO DELETE: Graph_Theory Document Not Found!
+FAIL TO DELETE : NO CONTENT AT LINE: 5
+SUCCESS: ali Registered !
+SUCCESS: Graph_Theory Created By ali
+FAIL TO APPEND: john Is Not A Registered User !
+FAIL TO REGISTER: mike Is Already Registered !
+FAIL TO CREATE DOC: john Is Not A Registered User !
+FAIL TO APPEND: Human_Computer_Interaction Is Not Available !
+FAIL TO RESTORE : Graph_Theory Was Not Created at Time 5
+SUCCESS: Pointers are useful in Cpp Replaced in Document: Object_Oriented_Programming at Line 2 By mike
+FAIL TO REPLACE: Graph_Theory Has NO CONTENT AT LINE: 1
+SUCCESS: graph theory is an interesting course Added in Document Graph_Theory By ali
+FAIL TO DELETE: john Is Not A Registered User !
+FAIL TO RESTORE: History_of_programming_languages Document Not Found!
+FAIL TO RESTORE: John Is Not Registered !
+FAIL TO PRINT DOC: Automata_Theory NOT FOUND !
+FAIL TO CREATE DOC: Object_Oriented_Programming Has Already Been Created !
+SUCCESS: john Registered !
+FAIL TO DELETE: Java_Programming_language Document Not Found!
+--------------------------------------------------------------------
+Document Name: Graph_Theory
+0.graph theory is an interesting course
+
+--------------------------------------------------------------------
+FAIL TO CREATE DOC: Graph_Theory Has Already Been Created !
+FAIL TO DELETE: Java_Programming_language Document Not Found!
+SUCCESS: line 0 has been Deleted in Document: Graph_Theory By ali
+SUCCESS: Graph_Theory Is Restored to Time 32 By ali
+SUCCESS: Object_Oriented_Programming Is Restored to Time 18 By mike
+SUCCESS: Object_Oriented_Programming Is Restored to Time 25 By mike
+FAIL TO PRINT DOC: Automata_Theory NOT FOUND !
+--------------------------------------------------------------------
+Document Name: Object_Oriented_Programming
+0.OO programming is awesome.
+1.I love OO programing.
+2.Pointers are useful in Cpp
+
+--------------------------------------------------------------------
+FAIL TO PRINT DOC: Human_Computer_Interaction NOT FOUND !
+--------------------------------------------------------------------
+Document Name: Graph_Theory
+0.graph theory is an interesting course
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Document Name: Operating_System
+
+--------------------------------------------------------------------
+FAIL: Automata_Theory Document Does not Exist !
+---------------------- NEW DOCUMENT HISTORY--------------------------
+Document Name: Object_Oriented_Programming
+Created By: mike | Document Name: Object_Oriented_Programming | Command Executed: CREATE
+Edited By: mike | DocumentName: Object_Oriented_Programming | Command Executed: APPEND | Line Appended: OO programming is awesome.
+Edited By: mike | DocumentName: Object_Oriented_Programming | Command Executed: APPEND | Line Appended: I love OO programing.
+Edited By: mike | DocumentName: Object_Oriented_Programming | Command Executed: APPEND | Line Appended: everyone likes pointers in Cpp
+Edited By: mike  | DocumentName: Object_Oriented_Programming  | Command Executed: REPLACE  | New Line Replaced: Pointers are useful in Cpp  | Old Line: everyone likes pointers in Cpp  | Line number: 2
+Edited By: mike | Document: Object_Oriented_Programming | Command Executed: RESTORE | Time: 35
+Edited By: mike | Document: Object_Oriented_Programming | Command Executed: RESTORE | Time: 36
+----------------------DOCUMENT HISTORY ENDS---------------------------
+FAIL: Human_Computer_Interaction Document Does not Exist !
+---------------------- NEW DOCUMENT HISTORY--------------------------
+Document Name: Graph_Theory
+Created By: ali | Document Name: Graph_Theory | Command Executed: CREATE
+Edited By: ali | DocumentName: Graph_Theory | Command Executed: APPEND | Line Appended: graph theory is an interesting course
+Edited By: ali  | DocumentName: Graph_Theory  | Command Executed: REPLACE  | New Line Replaced: null  | Old Line: graph theory is an interesting course  | Line number: 0
+Edited By: ali | Document: Graph_Theory | Command Executed: RESTORE | Time: 34
+----------------------DOCUMENT HISTORY ENDS---------------------------
+---------------------- NEW DOCUMENT HISTORY--------------------------
+Document Name: Operating_System
+Created By: mike | Document Name: Operating_System | Command Executed: CREATE
+----------------------DOCUMENT HISTORY ENDS---------------------------
+FAIL: andrea NOT FOUND !
+-------------------NEW USER REPORT----------------------------
+User Name: ali
+Created By: ali | Document Name: Graph_Theory | Command Executed: CREATE
+Edited By: ali | DocumentName: Graph_Theory | Command Executed: APPEND | Line Appended: graph theory is an interesting course
+Edited By: ali  | DocumentName: Graph_Theory  | Command Executed: REPLACE  | New Line Replaced: null  | Old Line: graph theory is an interesting course  | Line number: 0
+Edited By: ali | Document: Graph_Theory | Command Executed: RESTORE | Time: 34
+-------------------USER REPORT ENDS-----------------------
+-------------------NEW USER REPORT----------------------------
+User Name: mike
+Created By: mike | Document Name: Object_Oriented_Programming | Command Executed: CREATE
+Created By: mike | Document Name: Operating_System | Command Executed: CREATE
+Edited By: mike | DocumentName: Object_Oriented_Programming | Command Executed: APPEND | Line Appended: OO programming is awesome.
+Edited By: mike | DocumentName: Object_Oriented_Programming | Command Executed: APPEND | Line Appended: I love OO programing.
+Edited By: mike | DocumentName: Object_Oriented_Programming | Command Executed: APPEND | Line Appended: everyone likes pointers in Cpp
+Edited By: mike  | DocumentName: Object_Oriented_Programming  | Command Executed: REPLACE  | New Line Replaced: Pointers are useful in Cpp  | Old Line: everyone likes pointers in Cpp  | Line number: 2
+Edited By: mike | Document: Object_Oriented_Programming | Command Executed: RESTORE | Time: 35
+Edited By: mike | Document: Object_Oriented_Programming | Command Executed: RESTORE | Time: 36
+-------------------USER REPORT ENDS-----------------------
+FAIL: mary NOT FOUND !
+-------------------NEW USER REPORT----------------------------
+User Name: john
+-------------------USER REPORT ENDS-----------------------
+SUCCESS: Discrete_Math Created By mike
+SUCCESS: Discrete math is the study of math that is discreet Added in Document Discrete_Math By mike
+FAIL TO REPLACE: michael Is Not A Registered User !
+    VM terminated.
